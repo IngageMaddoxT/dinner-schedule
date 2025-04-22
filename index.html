@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dinner Schedule</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        padding: 20px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        min-width: 600px;
+      }
+      th,
+      td {
+        padding: 12px 16px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+      thead th {
+        background-color: #f1f1f1;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      tr:nth-child(even) {
+        background-color: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Dinner Schedule</h2>
+    <div style="overflow-x: auto">
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Dinner Host</th>
+            <th>What's on the menu?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Saturday</td>
+            <td>Everyone</td>
+            <td>Order Pizza</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Heather/Tony</td>
+            <td>Pasta Party - Brady's Birthday</td>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>Dinner Out</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Greg/Sue</td>
+            <td>Grilling + photo shoot</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Jeff/Connie</td>
+            <td>Grandma's Chicken and Rice</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Heather/Tony</td>
+            <td>Low Country Boil</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Greg/Sue</td>
+            <td>TBD - July 4th</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td colspan="2">Checkout 10am</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
